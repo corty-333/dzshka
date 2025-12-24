@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смешная анимация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Смешная анимация</h1>
+        <p class="subtitle">Прыгающий осьминог с забавными щупальцами</p>
+        
+        <div class="animation-area" id="animationArea">
+            <div class="octopus">
+                <div class="octopus-body">
+                    <div class="octopus-eye left">
+                        <div class="octopus-pupil"></div>
+                    </div>
+                    <div class="octopus-eye right">
+                        <div class="octopus-pupil"></div>
+                    </div>
+                    <div class="octopus-mouth"></div>
+                </div>
+                <div class="octopus-tentacle tentacle-1"></div>
+                <div class="octopus-tentacle tentacle-2"></div>
+                <div class="octopus-tentacle tentacle-3"></div>
+                <div class="octopus-tentacle tentacle-4"></div>
+                <div class="octopus-tentacle tentacle-5"></div>
+            </div>
+            <div class="bubbles" id="bubbles"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="speedUp">Ускорить</button>
+            <button id="speedDown">Замедлить</button>
+            <button id="crazyMode">Безумный режим</button>
+            <button id="reset">Сбросить</button>
+        </div>
+        
+        <div class="description">
+            <p>Этот забавный осьминог прыгает и машет щупальцами, создавая смешную анимацию. Вы можете управлять скоростью анимации с помощью кнопок или включить "безумный режим" для максимального веселья!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
